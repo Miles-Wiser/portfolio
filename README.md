@@ -12,7 +12,7 @@ A 2D platformer built with a custom game engine. I implemented the physics, coll
 
 **Technologies:** Python, Pygame, JSON
 
-[Portfolio Page](#) | [Source Code](https://github.com/Miles-Wiser/Novara-sAscent)
+[Portfolio Page](https://portfolio-a78.pages.dev/projects/novaras-ascent.html) | [Source Code](https://github.com/Miles-Wiser/Novara-sAscent)
 
 ## Technologies
 
