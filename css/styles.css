@@ -8,6 +8,16 @@ html {
     font-size: 16px;
 }
 
+body,
+main,
+footer,
+#theme-toggle {
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease,
+        border-color 0.3s ease;
+}
+
 :root {
     --background: #f5f5f5;
     --surface: #ffffff;
@@ -26,6 +36,24 @@ html {
         --link: #f0f0f0;
         --hover: #2a2a2a;
     }
+}
+
+[data-theme="light"] {
+    --background: #f5f5f5;
+    --surface: #ffffff;
+    --text: #333333;
+    --border: #dddddd;
+    --link: #333333;
+    --hover: #eeeeee;
+}
+
+[data-theme="dark"] {
+    --background: #121212;
+    --surface: #1e1e1e;
+    --text: #f0f0f0;
+    --border: #444444;
+    --link: #f0f0f0;
+    --hover: #2a2a2a;
 }
 
 body {
@@ -95,6 +123,12 @@ nav {
     gap: 20px;
 }
 
+.header-controls {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
 /* Navigation links */
 
 nav a {
@@ -115,6 +149,19 @@ main a {
 }
 
 main a:hover {
+    background-color: var(--hover);
+}
+
+#theme-toggle {
+    padding: 8px 16px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    color: var(--link);
+    background-color: var(--surface);
+    cursor: pointer;
+}
+
+#theme-toggle:hover {
     background-color: var(--hover);
 }
 
