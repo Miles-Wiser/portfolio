@@ -13,47 +13,47 @@ main,
 footer,
 #theme-toggle {
     transition:
-        background-color 0.3s ease,
-        color 0.3s ease,
-        border-color 0.3s ease;
+        background-color 0.5s ease,
+        color 0.5s ease,
+        border-color 0.5s ease;
 }
 
 :root {
-    --background: #f5f5f5;
-    --surface: #ffffff;
-    --text: #333333;
-    --border: #dddddd;
-    --link: #333333;
-    --hover: #eeeeee;
+    --background: #E8E2D5;
+    --surface: #F4F7F6;
+    --text: #26383A;
+    --border: #B8C8C5;
+    --link: #3F7C82;
+    --hover: #D5E7E2;
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --background: #121212;
-        --surface: #1e1e1e;
-        --text: #f0f0f0;
-        --border: #444444;
-        --link: #f0f0f0;
-        --hover: #2a2a2a;
+        --background: #17282B;
+        --surface: #233A3D;
+        --text: #E5EEEC;
+        --border: #40595B;
+        --link: #6FA9A5;
+        --hover: #304C4F;
     }
 }
 
 [data-theme="light"] {
-    --background: #f5f5f5;
-    --surface: #ffffff;
-    --text: #333333;
-    --border: #dddddd;
-    --link: #333333;
-    --hover: #eeeeee;
+    --background: #E8E2D5;
+    --surface: #F4F7F6;
+    --text: #26383A;
+    --border: #B8C8C5;
+    --link: #3F7C82;
+    --hover: #D5E7E2;
 }
 
 [data-theme="dark"] {
-    --background: #121212;
-    --surface: #1e1e1e;
-    --text: #f0f0f0;
-    --border: #444444;
-    --link: #f0f0f0;
-    --hover: #2a2a2a;
+    --background: #17282B;
+    --surface: #233A3D;
+    --text: #E5EEEC;
+    --border: #40595B;
+    --link: #6FA9A5;
+    --hover: #304C4F;
 }
 
 body {
