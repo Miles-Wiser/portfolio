@@ -172,7 +172,8 @@ footer {
     margin: 40px auto 0;
     padding: 40px;
     background-color: var(--surface);
-    border-top: 1px solid var(--border);
+    border: 1px solid var(--border);
+    border-bottom: none;
 }
 
 footer h2 {
@@ -209,10 +210,47 @@ h2 {
     margin-bottom: 15px;
 }  
 
+/* Image Styles */
+figure {
+    margin: 0 0 15px;
+}
+
+figure img {
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    margin-bottom: 5px;
+    border: solid 2px var(--border);
+    box-shadow: 5px 5px 10px var(--background);
+}
+
+figcaption {
+    width: 100%;
+    max-width: 350px;
+    color: var(--text);
+    text-align: center;
+    text-shadow: 5px 5px 5px var(--background);
+}
+
+/* KBD Styles */
+kbd {
+    padding: 2px 3px;
+    background-color: var(--background);
+    border-radius: 5px;
+    border: 1px solid var(--border)
+}
+
 /* Mobile */
 
 @media (max-width: 600px) {
     header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .header-controls {
         flex-direction: column;
         align-items: flex-start;
         gap: 10px;

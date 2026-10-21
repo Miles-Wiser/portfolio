@@ -12,7 +12,11 @@
         }
     </script>
 
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/index.css">
     <script src="js/theme.js" defer></script>
     <title>Miles Wiser | Software Developer</title>
 </head>
@@ -23,10 +27,10 @@
         <h1>Miles Wiser</h1>
 
         <div class="header-controls">
-            <nav>
+            <nav aria-label="Main navigation">
                 <a href="index.html">Home</a>
-                <a href="projects/projects.html">Projects</a>
                 <a href="about.html">About</a>
+                <a href="projects/projects.html">Projects</a>
             </nav>
 
             <button id="theme-toggle" type="button">Dark Mode</button>
@@ -34,44 +38,49 @@
     </header>
 
     <main>
-        <section>
+        <div class="introduction">
             <p>
-                I learn by building, and building has taught me how to work through
-                problems that don't have predetermined solutions. I'm comfortable
-                adapting to new technologies and tools when a project requires them,
-                and I want to continue learning and developing through hands-on
-                software development.
-            </p>
-
-            <p>
-                I have experience working with Python, Java, Kotlin, JavaScript, HTML,
-                CSS, and MySQL.
+                I am a software developer with a foundation in application and
+                web development. I enjoy using programming to bring my ideas to
+                life and solve problems through hands-on development. I look
+                forward to applying these skills to help others turn their ideas
+                into working software.
             </p>
 
             <p>
                 <a href="about.html">More About Me</a>
             </p>
-        </section>
+        </div>
 
         <section>
-            <h2>Featured Projects</h2>
+            <h2>Featured Project</h2>
 
-            <article>
-                <h3>Novara's Ascent</h3>
+            <div class="featured-project-content">
+                <div>
+                    <h3>Novara's Ascent</h3>
+                    <p>
+                        Novara's Ascent is a 2D platformer developed using Python
+                        and Pygame. The game features a custom-built engine that
+                        handles physics, collision detection, and rendering, along
+                        with a level editor used to create and modify game
+                        environments.
+                    </p>
 
-                <p>
-                    A 2D platformer built in Python and Pygame using a custom-built game engine
-                    and level editor.
-                </p>
+                    <p>
+                        <a href="projects/novaras-ascent.html">View Project</a>
+                    </p>
+                </div>
 
-                <p>
-                    <a href="projects/novaras-ascent.html">View Project</a>
-                </p>
-            </article>
-
-            <p>
-                <a href="projects/projects.html">See All Projects</a>
-            </p>
+                <figure>
+                    <img
+                        src="assets/projects/novaras_ascent/game_play_1.png"
+                        alt="Gameplay screenshot from Novara's Ascent showing the character looking at upcoming platforming."
+                        width="768"
+                        height="577"
+                    >
+                    <figcaption>Novara's Ascent Gameplay</figcaption>
+                </figure>
+            </div>
         </section>
     </main>
 
@@ -80,7 +89,7 @@
         <p><a href="https://www.linkedin.com/in/miles-wiser-3517762ab">LinkedIn</a></p>
         <p><a href="https://github.com/Miles-Wiser">GitHub</a></p>
         <p>
-            <a href="mailto:miles.a.wiser@gmail.com?subject=I%20Like%20Your%20Work&body=Also,%20you%20are%20really%20handsome!%20Let%27s%20connect%20for%20a%20job%20opportunity.">miles.a.wiser@gmail.com</a>
+            <a href="mailto:miles.a.wiser@gmail.com">miles.a.wiser@gmail.com</a>
         </p>
     </footer>
 

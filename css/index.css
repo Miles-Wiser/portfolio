@@ -1,0 +1,41 @@
+
+/* Introduction */
+
+.introduction {
+    margin-bottom: 40px;
+}
+
+/* Featured Project */
+
+.featured-project-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.featured-project-content > div {
+    flex: 1;
+    min-width: 0;
+}
+
+.featured-project-content h3 {
+    margin-top: 0;
+}
+
+.featured-project-content figure {
+    flex: 0 0 45%;
+    max-width: 400px;
+}
+
+@media (max-width: 600px) {
+    .featured-project-content {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .featured-project-content figure {
+        flex: none;
+        width: 100%;
+        max-width: 400px;
+    }
+}
